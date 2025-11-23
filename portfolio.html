@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Inter, Arial
+        }
+
+        body {
+            background: #0d0d0d;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 40px 20px;
+            text-align: center;
+            background: #111;
+            border-bottom: 1px solid #222;
+        }
+
+        header h1 {
+            font-size: 42px;
+            font-weight: 700;
+        }
+
+        header p {
+            color: #bbb;
+            margin-top: 6px;
+            font-size: 18px;
+        }
+
+        nav {
+            margin-top: 18px;
+            display: flex;
+            justify-content: center;
+            gap: 28px;
+        }
+
+        nav a {
+            color: #7dd3fc;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            border-left: 5px solid #7dd3fc;
+            padding-left: 10px;
+        }
+
+        .card {
+            background: #141414;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 16px;
+            border: 1px solid #222;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: #7dd3fc;
+        }
+
+        /* Photo Section */
+        .photo-box {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .photo-box img,
+        .photo-box video {
+            width: 70%;
+            border-radius: 12px;
+            margin-top: 10px;
+            border: 2px solid #222;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #aaa;
+            background: #111;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Abir Majumdar</h1>
+        <p>AI/ML Student • Web Developer • Programmer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#photo">Photo/Intro</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>I am Abir Majumdar, an aspiring AI and Machine Learning developer with a strong interest in deep
+                learning, data-driven problem solving, and full-stack web development.
+                I specialize in creating ML models, interactive dashboards, and user-friendly web applications.
+                I believe in learning by building, and my portfolio showcases projects where I apply technical concepts
+                to practical solutions.
+                I am constantly improving my skills in Python, TensorFlow, computer vision, HTML, CSS, and JavaScript,
+                aiming to grow into a skilled AI engineer.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="card">
+            <ul>
+                <li>Machine Learning (SVM, ANN, CNN, XGBoost,etc.),Deep Learning (ANN, CNN etc.)</li>
+                <li>Python, Java, C++, C</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Google Colab, Kaggle, GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>ANN Project</h3>
+            <p>A neural network classification project using TensorFlow/Keras.
+                <a href="https://github.com/STYLO009/ANN_projects" target="_blank">View Project</a>
+            </p>
+        </div>
+        <div class="card">
+            <h3>Machine Learning Project</h3>
+            <p>Done ML Project on Supervised Learning using Regression and classification.
+                <a href="https://github.com/STYLO009/machine_learning" target="_blank">View Project</a>
+            </p>
+        </div>
+        <div class="card">
+            <h3>Loan Prediction Project</h3>
+            <p><a href="https://github.com/STYLO009/ml_model" target="_blank">View Project</a></p>
+        </div>
+    </section>
+
+    <section id="photo">
+        <h2>Photo</h2>
+        <div class="card photo-box">
+            <img src="your-photo.jpg" alt="Abir Majumdar" style="width:100%; max-width:400px; border-radius:12px;">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+            <p>Email: <a href="mailto:abirmajumdar112@gmail.com">abirmajumdar112@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/STYLO009" target="_blank">STYLO009</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/abir-majumdar-0b0437318/" target="_blank">Abir
+                    Majumdar</a></p>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Abir Majumdar. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
